@@ -1,0 +1,66 @@
+body.juego {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 20px;
+}
+
+.juego__header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.juego__titulo {
+  font-size: 1.8rem;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.stats__item {
+  font-weight: bold;
+}
+
+.stats__value {
+  font-weight: normal;
+  color: #0ff;
+}
+
+.escena {
+  margin-top: 20px;
+}
+
+.escena__descripcion {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.escena__opciones {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.escena__opciones button {
+  padding: 10px;
+  border: none;
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.escena__opciones button:hover {
+  background-color: #666;
+}
+
+.juego__resultado {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+}

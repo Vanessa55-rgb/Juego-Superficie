@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Supervivencia - La Superficie</title>
+  <link rel="shortcut icon"
+    href="https://static.vecteezy.com/system/resources/previews/005/383/346/non_2x/map-of-world-3d-effect-surface-icon-set-white-color-illustration-flat-style-simple-image-vector.jpg"
+    type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="juego">
+  <header class="juego__header">
+    <h1 class="juego__titulo">🌍 Supervivencia: La Superficie</h1>
+  </header>
+
+  <section class="stats">
+    <p class="stats__item">❤️ Vida: <span id="vida" class="stats__value">5</span></p>
+    <p class="stats__item">🧑‍🤝‍🧑 Miembros: <span id="miembros" class="stats__value">3</span></p>
+    <p class="stats__item">🎒 Mochila: <span id="mochila" class="stats__value">[]</span></p>
+  </section>
+
+  <main class="escena">
+    <p id="descripcion" class="escena__descripcion"></p>
+    <div id="opciones" class="escena__opciones"></div>
+  </main>
+
+  <div id="resultado" class="juego__resultado"></div>
+
+  <script src="./juego.js"></script>
+</body>
+
+</html>
