@@ -25,12 +25,12 @@ Juego la superficie/
 
 Puedes ver el proyecto desplegado en **GitHub Pages** aquí:
 
-👉 [Ver Demo](https://vanessa55-rgb.github.io/Juego-La-Superficie/)
+👉 [Ver Demo](https://vanessa55-rgb.github.io/Juego-Superficie/)
 
 ## 🚀 Cómo usarlo
 
 1. Descarga o clona este repositorio.
-👉 [Clona](https://github.com/Vanessa55-rgb/Juego-La-Superficie.git)
+👉 [Clona](https://github.com/Vanessa55-rgb/Juego-Superficie.git)
 2. Abre el archivo `index.html` en tu navegador.
 3. Desde ahí podrás navegar a los distintos ejercicios.
 
