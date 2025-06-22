@@ -1,8 +1,13 @@
+/* ====== Estilos Generales ====== */
 body.juego {
   font-family: Arial, sans-serif;
   background-color: #1e1e1e;
   color: #fff;
   padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .juego__header {
@@ -14,6 +19,7 @@ body.juego {
   font-size: 1.8rem;
 }
 
+/* ====== Estadísticas ====== */
 .stats {
   display: flex;
   flex-direction: column;
@@ -29,8 +35,10 @@ body.juego {
   color: #0ff;
 }
 
-.escena {
+/* ====== Escena del juego ====== */
+main.escena {
   margin-top: 20px;
+  flex: 1;
 }
 
 .escena__descripcion {
@@ -58,9 +66,22 @@ body.juego {
   background-color: #666;
 }
 
+/* ====== Resultado ====== */
 .juego__resultado {
   margin-top: 30px;
   font-weight: bold;
   font-size: 1.2rem;
   text-align: center;
+}
+
+/* ====== Footer ====== */
+footer {
+  background-color: #1e1e1e; /* Mismo fondo que el body */
+  color: #666;
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  border-top: 1px solid #333;
+  font-family: Arial, sans-serif;
 }
